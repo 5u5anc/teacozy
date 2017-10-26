@@ -110,13 +110,14 @@ h4 {
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: auto;
   text-align: center;
   background-image: url(../images/img-locations-background.jpg);
   height: 500px;
+  margin-top:40px;
 
 }
 
