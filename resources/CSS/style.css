@@ -107,48 +107,35 @@ h4 {
 /*********** covers all End Content styles here ***********/
 
 .endcontent {
+  padding-top: 80px;
   background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: auto;
-  text-align: center;
+  position: relative;
   background-image: url(../images/img-locations-background.jpg);
-  height: 500px;
+  height: 400px;
 }
 
 .locate {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  text-align: center;
   margin-top: 15px;
   margin-right: 40px;
   background-color: black;
   width: 300px;
   height: 300px;
   padding: 10px;
-  line-height: 1.0;
+  align-items: center;
 }
 
 .endcontent h2 {
-  text-align: center;
+  text-align: top;
   margin-bottom: 10px;
-  flex: auto;
   width: 100%;
-
+  display: block;
 }
 
 .locate p {
   font-weight: lighter;
-  line-height: 1.8em;
-  font-size: 18px;
+  font-size: 20px;
+  align-content: center;
 }
-
 
 
 /*********** covers Footer Content styles here ***********/
