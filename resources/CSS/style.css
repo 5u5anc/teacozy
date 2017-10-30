@@ -71,6 +71,7 @@ h4 {
   background-color: black;
   font-family: Helvetica;
 
+
 }
 
 .box h2 {
@@ -89,6 +90,7 @@ h4 {
   width: 1000px;
   margin: auto;
   padding: 80px 0px;
+  flex-wrap: wrap;
 }
 
 .middlecontent .middle-content-box {
@@ -106,35 +108,37 @@ h4 {
 
 /*********** covers all End Content styles here ***********/
 
+
 .endcontent {
-  padding-top: 80px;
-  background-repeat: no-repeat;
-  position: relative;
+  width: 1200px;
+  margin: auto;
+  padding: 80px 0px;
+  flex-wrap: wrap;
   background-image: url(../images/img-locations-background.jpg);
-  height: 400px;
+  height: 500px;
 }
 
 .locate {
-  margin-top: 15px;
-  margin-right: 40px;
+  margin: 15px 20px 0px 20px;
   background-color: black;
   width: 300px;
   height: 300px;
-  padding: 10px;
-  align-items: center;
+  display: inline-block;
+  padding-top: 15px;
 }
 
-.heady {
+.endcontent h2 {
+  text-align: center;
   margin-bottom: 10px;
-  width: 100%;
-  display: block;
 }
 
 .locate p {
+  padding-top: 10px;
   font-weight: lighter;
   font-size: 20px;
   align-content: center;
 }
+
 
 
 /*********** covers Footer Content styles here ***********/
